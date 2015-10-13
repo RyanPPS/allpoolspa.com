@@ -3,7 +3,7 @@
  * This footer replaces the "layoutFooter" template defined in the reactioncommerce:core package.
  * https://github.com/reactioncommerce/reaction-core/blob/master/client/templates/layout/footer/footer.html
  */
- 
+
 Template.layoutFooter.helpers({
   customSocialSettings: function() {
     return {
@@ -15,4 +15,5 @@ Template.layoutFooter.helpers({
   }
 });
 
+//Template.{TemplateYouWishToUse}.replaces("{templateYouWishToReplace}")
 Template.footer.replaces("layoutFooter");

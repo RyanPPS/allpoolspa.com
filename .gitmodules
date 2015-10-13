@@ -1,0 +1,9 @@
+[submodule "packages/reaction-core"]
+	path = packages/reaction-core
+	url = git@github.com:reactioncommerce/reaction-core.git
+[submodule "packages/reaction-core-theme"]
+	path = packages/reaction-core-theme
+	url = git@github.com:reactioncommerce/reaction-core-theme.git
+[submodule "packages/reaction-hellworld"]
+	path = packages/reaction-hellworld
+	url = git@github.com:reactioncommerce/reaction-helloworld.git
