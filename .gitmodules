@@ -4,6 +4,6 @@
 [submodule "packages/reaction-core-theme"]
 	path = packages/reaction-core-theme
 	url = git@github.com:reactioncommerce/reaction-core-theme.git
-[submodule "packages/reaction-hellworld"]
-	path = packages/reaction-hellworld
-	url = git@github.com:reactioncommerce/reaction-helloworld.git
+[submodule "packages/reaction-bulkimport"]
+	path = packages/reaction-bulkimport
+	url = git@github.com:reactioncommerce/reaction-bulkimport.git

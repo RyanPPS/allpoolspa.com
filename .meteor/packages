@@ -63,3 +63,4 @@ reactioncommerce:reaction-stripe
 #meteorhacks:kadira-profiler
 #meteortoys:allthings
 reactioncommerce:reaction-helloworld
+reactioncommerce:reaction-bulkimport
