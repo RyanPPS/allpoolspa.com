@@ -1,0 +1,164 @@
+<template name="apsFooter">
+<style type="text/css">
+    .footer-logo {
+    max-height:140px;
+    max-width: 140px;
+    float: left;
+  }
+  .footer-column-names {
+    color: #000000;
+    text-decoration: underline;
+  }
+  footer {
+
+    z-index: -1;
+    height: 300px;
+    background-color: rgb(255, 208, 0);
+  }
+
+  .footer {
+    /*
+    z-index: -1;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    */
+    height: 50vh;
+    width: 100vw;
+    padding: 30px 50px;
+    background-color: rgb(255, 208, 0);
+  }
+
+</style>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <!--
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+      -->
+      <div class="footer-column col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <img class="img-responsive center-block footer-logo" src='/resources/aps_badge_transparent_bluegreen.sm.png'>
+      </div>
+      <div class="footer-column col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <strong class="footer-column-names">All Pool Spa</strong>
+        <ul id="list1" class="list-group list-unstyled">
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">About</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Team</a>
+          </li>
+          <li>
+            <a href="http://meteor.com" target="_blank" data-event-category="link" data-event-action="link-click" data-event-label="external link click" data-event-value="meteor.com">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Email</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Phone</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Manufacturers</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Products</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <strong class="footer-column-names">Shop</strong>
+        <ul id="list2" class="list-group list-unstyled">
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Hayward</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Pentair</a>
+          </li>
+          <li>
+            <a href="http://meteor.com" target="_blank" data-event-category="link" data-event-action="link-click" data-event-label="external link click" data-event-value="meteor.com">
+              Val-Pak
+            </a>
+          </li>
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Zodiac</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Wholegood</a>
+          </li>
+          <li>
+            <a href="http://meteor.com" target="_blank" data-event-category="link" data-event-action="link-click" data-event-label="external link click" data-event-value="meteor.com">
+              Parts
+            </a>
+          </li>
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Maintenace</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Bulk</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <strong class="footer-column-names">Poolmen</strong>
+        <ul id="list3" class="list-group list-unstyled">
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Bulk Items</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Member</a>
+          </li>
+        </ul>
+        <strong class="footer-column-names">Learn</strong>
+        <ul id="list4" class="list-group list-unstyled">
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Forums</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Instructional Videos</a>
+          </li>
+          <li>
+            <a href="http://meteor.com" target="_blank" data-event-category="link" data-event-action="link-click" data-event-label="external link click" data-event-value="meteor.com">
+              Technical Service
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <strong class="footer-column-names">Pool Owners</strong>
+        <ul id="list5" class="list-group list-unstyled">
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Shopping Customization</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Group</a>
+          </li>
+        </ul>
+        <strong class="footer-column-names">Learn</strong>
+        <ul id="list6" class="list-group list-unstyled">
+          <li>
+            <a href="{{pathFor 'about'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'about'}}">Forums</a>
+          </li>
+          <li>
+            <a href="{{pathFor 'team'}}" data-event-category="link" data-event-action="link-click" data-event-label="page link click" data-event-value="{{pathFor 'team'}}">Instructional Videos</a>
+          </li>
+          <li>
+            <a href="http://meteor.com" target="_blank" data-event-category="link" data-event-action="link-click" data-event-label="external link click" data-event-value="meteor.com">
+              Technical Service
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <div class="pull-right">
+          {{#each reactionApps provides="social" name="reaction-social"}}
+            {{> Template.dynamic template=template data=customSocialSettings }}
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</template>

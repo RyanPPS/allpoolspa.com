@@ -1,0 +1,103 @@
+<template name="hero">
+  <style >
+
+  #main {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  p {
+    margin: 20px;
+  }
+  h1, h2, h3, p {
+    color: white;
+  }
+  .jumbotron {
+    background: url('/resources/hayward_equipment_set_cropped.jpg') no-repeat center center;
+    background-color: white;
+    z-index: 2;
+    padding: 0px;
+    height: 100vh;
+    min-height: 400x;
+    width: 100vw;
+    display: block;
+  }
+  .color-overlay {
+    position: absolute;
+    z-index: 3;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(10, 13, 181, 0.33);
+    background: -webkit-linear-gradient(top, rgba(255, 208, 0, 0.32) 0%, rgba(10, 13, 181, 0.33) 100%);
+    background: linear-gradient(to bottom, rgba(255, 208, 0, 0.32) 0%, rgba(10, 13, 181, 0.33) 100%);
+  }
+  aside {
+    position: relative;
+  }
+  .tagline {
+    width: 100%;
+    z-index: 4;
+  }
+  .hero-buttons {
+    width: 100%;
+    z-index: 4;
+  }
+  .hero-container {
+    background: url('/resources/aps_badge_transparent_bluegreen_op60.md.png') no-repeat center center;
+    z-index: 3;
+    height: 400px;
+    width: 50%;
+    margin:auto auto;
+    display: table; /* unless you want to declare a height */
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+  }
+  .hero-contents {
+    width: 100%;
+    margin:auto auto;
+    display: table; /* unless you want to declare a height */
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+  }
+  .btn {
+    border-radius: 2px;
+    border-color: white;
+    border-width: 3px;
+    font-weight: 700;
+    background-color: transparent;
+  }
+  .btn:hover {
+    border-color: white;
+    background-color: white;
+    color: #0f6781;
+  }
+  </style>
+  <section class="hero">
+    <div class="color-overlay"></div>
+    <div class="jumbotron">
+      <div class="hero-container text-center col-md-12 col-lg-12">
+        <div class="hero-contents text-center col-md-12">
+          <aside class="tagline">
+            <h2 class="text-center"><strong>Products with Integrity</strong></h2>
+          </aside>
+          <aside class="hero-buttons">
+            <p class="text-center">
+              <a class="btn btn-primary btn-lg" href="/" role="button">Login</a>
+              <a class="btn btn-primary btn-lg" href="/" role="button">Shop</a>
+            </p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+

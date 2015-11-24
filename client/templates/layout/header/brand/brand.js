@@ -1,0 +1,1 @@
+Template.apsHeaderBrand.replaces("headerBrand");

@@ -1,0 +1,101 @@
+<template name="landingForm">
+<style type="text/css">
+  footer .form-control {
+    width: 40%;
+    height: 70px;
+    border: 2px solid #11728e;
+    border-radius: 2px;
+    background-color: white;
+    float: left;
+    margin: 0px 8px;
+  }
+
+  footer .form-input {
+    margin-left: 7%;
+    /* float: left; */
+    width: 100%;
+  }
+  .pool-equipment-form h1 {
+    color: #FFD000;
+  }
+  .pool-equipment-form p {
+    color: #11728e;
+    line-height: 1.75;
+    font-size: 18px;
+  }
+  footer form {
+    width: 100%;
+    float: left;
+    background-color: #11728e;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 380%;
+  }
+  .user-form {
+    padding: 0;
+    text-align: center;
+  }
+  .form-paragraph {
+    float: left;
+    padding: 25px 70px 25px 10px;
+  }
+
+
+</style>
+<section class="pool-equipment-form">
+<div class="container-fluid">
+<div class="row">
+<div class="user-form col-xsm-12 col-sm-12 col-md-6">
+  <form class="form-horizontal">
+    <fieldset>
+
+    <!-- Form Name -->
+    <h1>Your Pool Equipment</h1>
+
+    <!-- Text input-->
+    <div class="form-input col-md-offset-2 col-md-8">
+    <div class="form-group col-md-12">
+
+      <input id="filter-make" name="filter-make" type="text" placeholder="Make of your filter" class="form-control input-md">
+      <input id="filter-model" name="filter-model" type="text" placeholder="Model of your filter" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-input col-md-offset-2 col-md-8">
+    <div class="form-group col-md-12">
+
+      <input id="textinput" name="textinput" type="text" placeholder="Make of your pump" class="form-control input-md">
+      <input id="pump-model" name="pump-model" type="text" placeholder="Model of your pump" class="form-control input-md">
+      </div>
+    </div>
+
+
+    <!-- Text input-->
+
+    <div class="form-input col-md-offset-2 col-md-8">
+    <div class="form-group col-md-12">
+
+      <input id="heater-make" name="heater-make" type="text" placeholder="Make of your heater" class="form-control input-md">
+      <input id="heater-model" name="heater-model" type="text" placeholder="Model of your heater" class="form-control input-md">
+      </div>
+    </div>
+    <!--
+    <div class="form-input col-md-offset-2 col-md-8">
+      <div class="form-group col-md-12">
+        <div class="btn btn-success">
+          <span>Submit</span>
+        </div>
+      </div>
+    </div>
+    -->
+    </fieldset>
+  </form>
+  </div>
+  <div class="form-paragraph col-xsm-12 col-sm-12 col-md-6">
+    <p><i><strong>Help us help you find the things you need</strong> by filling out the form with <strong>your pool equipment</strong>. This enables us to refine the items we show you as you browse our site. We can help you identify that pisky o-ring for you filter lid or that basket for your pump.
+    </i></p>
+  </div>
+</div>
+</div>
+</section>
+</template>

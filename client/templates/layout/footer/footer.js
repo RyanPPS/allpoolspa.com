@@ -16,4 +16,4 @@ Template.layoutFooter.helpers({
 });
 
 //Template.{TemplateYouWishToUse}.replaces("{templateYouWishToReplace}")
-Template.footer.replaces("layoutFooter");
+Template.landingPageFooter.replaces("layoutFooter");
