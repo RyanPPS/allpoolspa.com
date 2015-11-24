@@ -7,4 +7,4 @@
 
 [submodule "packages/reaction-bulkimport"]
 	path = packages/reaction-bulkimport
-	url = https://github.com/RyanPPS/reaction-bulkimport.git
+	url = https://github.com/allpoolspa/reaction-bulkimport.git
